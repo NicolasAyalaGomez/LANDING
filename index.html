@@ -1,0 +1,328 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAST-STERN</title>
+    <script defer src="theme.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#" class="nav-link">
+            <span class="link-text logo-text">FAST-STERN</span>
+            
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img
+              src="compu.png"
+              width="66px"
+              height="66px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="cat"
+              
+            >
+            <span class="link-text">INICIO</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#box3" class="nav-link">
+            <img
+            src="dino.png"
+            width="66px"
+            height="66px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="alien-monster"
+             > 
+            <span class="link-text">NOSOTROS</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#box4" class="nav-link">
+            <img
+              src="team.png"
+              width="66px"
+              height="66px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="space-station-moon-alt"
+              >
+            <span class="link-text">EQUIPO</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#box5" class="nav-link">
+            <img
+              src="product.png"
+              width="66px"
+              height="66px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="space-shuttle"
+            > 
+            <span class="link-text">PRODUCTOS</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#conta" class="nav-link">
+              <img
+                src="contact.png"
+                width="66px"
+                height="66px"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="contact"
+              > 
+              <span class="link-text">CONTACTO</span>
+            </a>
+          </li>
+    
+  
+        <li class="nav-item" id="themeButton">
+          <a href="#" class="nav-link">
+            <img
+              src="solar.png"
+              width="66px"
+              height="66px"
+              class="theme-icon"
+              id="lightIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="moon-stars"
+              
+            >
+            <img
+
+              src="trusolar.png"
+              width="66px"
+              height="66px"
+              class="theme-icon"
+              id="solarIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="sun"
+              
+            >
+            <img
+              src="night.png"
+              width="66px"
+              height="66px"
+              class="theme-icon"
+              id="darkIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="sunglasses"
+              
+            >
+            <span class="link-text">TEMITA</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  
+    <main>
+        
+    <div class="box1">
+    <center><img
+    src="fsLand.gif"
+    class="fs"
+    width="780px"
+    height="300px"
+    ></center>
+    </div>
+    <div class="box2", id="box2">
+        <h1>el pepe</h1>
+        <p>papure</p>
+        <img src="neiva2.png" class="object" data-value="-2" alt="">
+        <img src="moong2.png" class="object" data-value="6" alt="">
+        <img src="spinetto2.png" class="object" data-value="4" alt="">
+        <img src="magicat2.png" class="object" data-value="-6" alt="">
+        
+        <script type="text/javascript">
+            document.addEventListener("mouseup", parallax);
+            function parallax(e){
+                document.querySelectorAll(".object").forEach(function(move){
+    
+                    var moving_value = move.getAttribute("data-value");
+                    var x = (e.clientX * moving_value)/250;
+                    var y = (e.clientY * moving_value)/250;
+    
+                    move.style.transform = "translateX(" + x + " px) translateY("+ y +"px)";
+                });
+            }
+    
+        </script>
+    </div>
+   
+
+    
+
+    <div class="box3", id="box3">
+      <center><img src="somos.gif", width="700px" height="280px"></center>
+
+      <br><br>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+          <p> FAST-STERN es una empresa fundada en el lejano
+            2022, bajo el contexto de la creacion de una
+            empresa desarrolladora de software, 
+            despues de una
+            ardua busqueda del fundador, 
+            se logro formar un equipo 
+            de elite con el que se desarrollo nuestro primer
+            proyecto: "SPINETTO"!!!
+          </p>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+    <br><br>
+    <blockquote>
+      <blockquote>
+    <blockquote>
+      <blockquote>
+        <p class="pp"> En el 2023 se continuo el legado
+          con un nuevo equipo de trabajo, y nuevas ideas.
+          Fue en este momento en que FAST-STERN alcanzo
+          un punto maximo en creatividad y exito, llegando
+          a tener el premio al mejor proyecto, con nuestro
+          segundo juego: "BioCatchers"!!!
+        </p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+    </blockquote>
+    <br><br>
+    <blockquote>
+      <blockquote>
+        <p class="sech"> Este 2024 se busca alcanzar la gloria
+          una vez mas, con un totalmente nuevo y renovado
+          equipo de trabajo, con una nueva y ambiciosa idea,
+          FAST-STERN busca refrescarse con nuestro mas reciente
+          y espectacular producto:
+          "KLANG-SÖBA"!!!
+          Siempre tratando de superarnos, y guiarnos por nuestro
+          estrelloso eslogan:
+
+        </p>
+      </blockquote>
+    </blockquote>
+    <br><br><br><br>
+        <center><h1>SPEED OF LIGHT, BEYOND OUR LIMITS...</h1></center>
+    </div>
+
+    <div class="box4", id="box4">
+      <center><img src="TIMU.png", width="700px" height="280px"></center>
+      <br><br><br><br>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+      
+        th, td {
+          border: 0px solid #ddd;
+          padding: 8px;
+          text-align: center;
+        }
+      
+        
+      </style>
+      <table>
+        <tr>
+          <th class="leni"><div class="lenin"></div><h1 class="hector">Lenin</h1></th>
+          <th class="nico"><div class="nicolas"><h1 class="inaki">Nicolas</h1></div></th>
+          <th class="cara"><div class="carapia"><h1 class="brandon">Carapia</h1></div></th>
+        </tr>
+        
+        <tr>
+          <td colspan="2" class="pingui"><div class="pinguino"><h1 class="alonso">Pingüino</h1></div></td>
+          <td class="san"><div class="santi"></div><h1 class="marti">Santiago</h1></td>
+        </tr>
+      </table>
+    
+     
+    
+             
+                  
+      
+     
+      
+    
+<br>
+      
+          
+    </div>
+    <div class="box5", id="box5">
+      <br><br><br><br><br><br><br><br>
+      <center><img src="chamoritu.png", width="700px" height="280px"></center>
+      <center><h1 class="foldme">(Haz click en un folder!!!)</h1></center>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+      
+        th, td {
+          border: 0px solid #ddd;
+          padding: 8px;
+          text-align: center;
+        }
+      
+        
+      </style>
+      <table class="pro">
+        <tr>
+          <th class="foldspine"><a href="https://fallproune.github.io/SPINETTO" target="_blank"><div class="folderS"></div></a></th>
+          <th class="nico"></th>
+          <th class="foldbc"><a href="https://carlosmanzano456.github.io/BioCatchers.github.io/" target="_blank"><div class="folderN"></div></a></div></th>
+        </tr>
+        
+        <tr>
+          <td colspan="2" class="foldks"><a href="https://youtu.be/9bZkp7q19f0?si=Zb1itOH9WF5HyPDT" target="_blank"><div class="folderM"></div></a></td>
+          <td class="san"></td>
+        </tr>
+      </table>
+    
+      
+    </div>
+    <div class="box6", id="box6">
+     
+      
+    </div>
+
+    <div class="box7", id="box7">
+     
+      <h1 id="conta">CONTACTO</h1>
+    </div>
+      <h1>CSS is Cool</h1>
+      <h1>CSS is Cool</h1>
+
+    
+    
+      
+    </main>
+  </body>
